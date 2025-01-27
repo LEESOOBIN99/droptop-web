@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>드롭탑 메인페이지</title>
+  <link rel="stylesheet" href="css/11style.css">
+  <link rel="stylesheet" href="css/library.css">
+  
+
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- 구글폰트 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_circle" />
+
+
+
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js" defer></script>
+ 
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <div id="header">
+    <div class="logo">
+      <a href="#"><img src="img/사본 -검색창-드롭탑-로고 1.png" alt="" width="300px" height="50px"></a>
+    </div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu"><i class="fa-solid fa-bars"></i></button>
+
+    <nav class="menu" id="menu" aria-hidden="true">
+      <button class="menu-close"><i class="fa-solid fa-times"></i></button>
+      <div class="h-logo"><img src="img/renew_header_logo.png222.png" alt=""></div>
+      <ul>
+        <li><a href="#">DROPTOP <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">DROPTOP 이야기</a></li>
+            <li><a href="#">회사소개</a></li>
+          </ul>
+        </li>
+        <li><a href="#">925커피 <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">커피 이야기</a></li>
+          </ul>
+        </li>
+        <li><a href="#">MENU <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">DROPTOP</a></li>
+            <li><a href="#">신제품</a></li>
+            <li><a href="#">커피</a></li>
+            <li><a href="#">음료</a></li>
+            <li><a href="#">푸드</a></li>
+            <li><a href="#">케이크</a></li>
+          </ul>
+        </li>
+        <li><a href="#">STORE <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">DROPTOP</a></li>
+          </ul>
+        </li>
+        <li><a href="#">FRANCHISE <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">창업안내 </a></li>
+            <li><a href="#">창업설명회</a></li>
+            <li><a href="#">가맹상담</a></li>
+            <li><a href="#">Master Fr.App</a></li>
+          </ul>
+        </li>
+        <li><a href="#">EVENT <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">이벤트 소식 </a></li>
+            <li><a href="#">당첨자 발표</a></li>
+            <li><a href="#">제휴카드</a></li>
+          </ul>
+        </li>
+        <li><a href="#">COMMUNITY <span class="toggle-icon">></span> </a>
+          <ul class="sub">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">보도자료</a></li>
+            <li><a href="#">제작지원</a></li>
+            <li><a href="#">멀티미디어</a></li>
+            <li><a href="#">소셜 드롭탑</a></li>
+            <li><a href="#">고객의 소리</a></li>
+            <li><a href="#">점주의 소리</a></li>
+          </ul>
+
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav">
+
+      <ul>
+        <li><a href="#">DROPTOP</a>
+          <ul class="submenu">
+            <li><a href="#">DROPTOP 이야기</a></li>
+            <li><a href="#">회사소개</a></li>
+          </ul>
+        </li>
+        <li><a href="#">925커피</a>
+          <ul class="submenu">
+            <li><a href="#">커피 이야기</a></li>
+          </ul>
+        </li>
+        <li><a href="#">MENU</a>
+          <ul class="submenu">
+            <li><a href="#">DROPTOP</a></li>
+            <li><a href="#">신제품</a></li>
+            <li><a href="#">커피</a></li>
+            <li><a href="#">음료</a></li>
+            <li><a href="#">푸드</a></li>
+            <li><a href="#">케이크</a></li>
+          </ul>
+        </li>
+        <li><a href="#">STORE</a>
+          <ul class="submenu">
+            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">DROPTOP</a></li>
+          </ul>
+        </li>
+        <li><a href="#">FRANCHISE</a>
+          <ul class="submenu">
+            <li><a href="#">창업안내 </a></li>
+            <li><a href="#">창업설명회</a></li>
+            <li><a href="#">가맹상담</a></li>
+            <li><a href="#">Master Fr.App</a></li>
+          </ul>
+        </li>
+        <li><a href="#">EVENT</a>
+          <ul class="submenu">
+            <li><a href="#">이벤트 소식 </a></li>
+            <li><a href="#">당첨자 발표</a></li>
+            <li><a href="#">제휴카드</a></li>
+          </ul>
+        </li>
+        <li><a href="#">COMMUNITY</a>
+          <ul class="submenu">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">보도자료</a></li>
+            <li><a href="#">제작지원</a></li>
+            <li><a href="#">멀티미디어</a></li>
+            <li><a href="#">소셜 드롭탑</a></li>
+            <li><a href="#">고객의 소리</a></li>
+            <li><a href="#">점주의 소리</a></li>
+          </ul>
+
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="user-menu">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Join</a></li>
+        <!-- <li><a href="#">Eng</a></li> -->
+        <li><a href="#">Membership</a></li>
+      </ul>
+    </div>
+    <div class="menuBg"></div>
+  </div>
+
+  <!-- 슬라이드 -->
+
+  <div class="slide-box">
+    <div class="sliderwrap">
+      <div class="slider s1">
+          <img src="img/슬라이드 1 (수정).png" alt="이미지1">
+      </div>
+      <div class="slider s2">
+          <img src="img/슬라이드 2(수정).png" alt="이미지2">
+      </div>
+      <div class="slider s3">
+          <img src="img/슬라이드 3(수정).png" alt="이미지3">
+      </div>
+    </div>
+    <!-- 페이지네이션 바 -->
+    <div class="pagination-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+
+  <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper swiper-wrapper-2">
+
+      <div class="swiper-slide"><a href="#"><img src="img/슬라이드 최종 1.png" alt=""></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/슬라이드 최종 2.png" alt=""></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/슬라이드 최종 3.png" alt=""></a></div>
+     
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var swiper = new Swiper('.mySwiper', {
+        loop: true, 
+        autoplay: { 
+          delay: 3000, 
+          disableOnInteraction: false, 
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    });
+  </script> -->
+
+  <div class="d-notice-box">
+    <div class="d-txt d-txt-1">[공지] 2024년도 APP리뉴얼으로 인한 선불카드 환불 안내 <p>2024.01.15</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+
+    <div class="d-txt d-txt-2">[공지]	전국 휴게소 드롭탑 매장 안내 <p>2023.09.20</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+
+    <div class="d-txt d-txt-3">[공지]	드롭탑 앱 선불카드 잔액 소진 안내<p>2023.08.17</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+
+    <div class="d-txt d-txt-4">[공지]	[2021년 8월] 멤버십 변경 안내<p>2023.02.10</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+
+    <div class="d-txt d-txt-5">[공지] 모바일 교환권(기프티콘) 사용 불가 매장 안내 (24.03 Ver.)<p>2022.06.22</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+
+    <div class="d-txt d-txt-6">[공지]	드롭탑 앱 쿠폰 사용불가 매장 안내 (24.03 Ver.) <p>2022.05.03</p>
+      <span class="material-symbols-outlined">
+        add_circle
+      </span>
+    </div>
+  </div>
+
+
+  <div class="s-box">
+  <div class="content-1">
+    <div class="con1-txt-box">
+      <h1 class="title-underline">DROPTOP <span>MENU</span></h1>
+    </div>
+    
+    <div class="con1-image swiper-container">
+      <div class="swiper-wrapper">
+        <div class="con-1-box swiper-slide">
+          <img src="img/신제품수정.png" alt="">
+          <div class="s-txt-box">
+            <span>신제품</span>
+            <p>New Product</p>
+          </div>
+        </div>
+        <div class="con-1-box swiper-slide">
+          <img src="img/커피.png" alt="">
+          <div class="s-txt-box">
+            <span>커피</span>
+            <p>Coffee</p>
+          </div>
+        </div>
+        <div class="con-1-box swiper-slide">
+          <img src="img/딸기_음료.png" alt="">
+          <div class="s-txt-box">
+            <span>음료</span>
+            <p>Beverage</p>
+          </div>
+        </div>
+
+        <div class="con-1-box swiper-slide">
+          <img src="img/디저트.png" alt="신제품">
+          <div class="s-txt-box">
+            <span>푸드</span>
+            <p>food</p>
+          </div>
+        </div>
+
+        <div class="con-1-box swiper-slide">
+          <img src="img/케잌.png" alt="신제품">
+          <div class="s-txt-box">
+            <span>케이크</span>
+            <p>Cake</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- 네비게이션 버튼 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+ 
+    </div>
+  </div>
+  </div>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  centeredSlides: true,
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+});
+  </script>
+
+  <div class="contents-2 text-section">
+    <div class="contents-2-txt-box">
+      <div class="contents-2-txt-1">
+        <div class="con2-img">
+          <!-- <img src="img/드롭탑-커피.png" alt=""> -->
+        </div>
+        <p class="con2-maint title-underline fade-in" data-delay="0.5">Drop In a Top Place</p>
+      </div>
+      <div class="contents-2-txt-2">
+        <p class="fade-in" data-delay="1">최고의 장소에서 커피를 즐긴다.</p>
+      </div>
+
+      <div class="button-box">
+        <a href="#"><button>창업안내</button></a>
+        <a href="#"><button>브랜드 소개</button></a>
+      </div>
+
+      <!-- <div class="coffee">
+      <img src="img/커피-이미지.png" alt="">
+     </div> -->
+    </div>
+
+    <div class="contents-2-img-box">
+      <a href="#"><img src="img/드롭탑 외부.jpg" alt=""></a>
+    </div>
+  </div>
+
+  <div class="contents-3">
+    <div class="carousel-images">
+      <img src="img/인테리어 1.png" class="carousel-image active">
+      <img src="img/인테리어 2.jpg" class="carousel-image">
+      <img src="img/인테리어-3.png" class="carousel-image">
+      <img src="img/인테리어-4.png" class="carousel-image">
+    </div>
+
+    <div class="contents-3-txt-box text-section">
+      <div class="contents-3-txt-1">
+        <p class="title-underline fade-in"  data-delay="0.5">DropTop Interior</p>
+      </div>
+      <div class="contents-3-txt-2">
+        <p class="fade-in" data-delay="1">감성과 이성을 담은 공간</p>
+      </div>
+      <div class="contents-3-txt-3">
+        <p class="fade-in" data-delay="1.5">Modern & Chic</p>
+      </div>
+
+      <div class="carousel-controls">
+        <span class="arrow left-arrow">&lt;</span>
+        <span class="image-counter">1/4</span>
+        <span class="arrow right-arrow">&gt;</span>
+      </div>
+    </div>
+    <div class="img-logo">
+      <img src="img/사본 -Group 3 (3).png" alt="" width="400px" height="400px">
+    </div>
+  </div>
+
+  <!-- 드롭탑 이벤트  -->
+  <div class="contents-4">
+    <h1 class="con4-txt-1 title-underline">DROPTOP <span>EVENT</span></h1>
+
+    <div class="event-box">
+      <ul>
+        <li><a href="#"><img src="img/삼성카드이벤트배너.png" alt=""></a>
+          <div class="event-txt-box">
+            <p class="event-txt"><span>[이벤트]</span>
+              1월 드롭탑 X 삼성카드 적립 EVENT</p>
+            <p class="e-date-txt">2024-12-30</p>
+          </div> 
+        </li>
+        <li><a href="#"><img src="img/이벤트배너_1(수정).png" alt=""></a>
+          <div class="event-txt-box">
+            <p class="event-txt"><span>[이벤트]</span>
+              크리스마스 음료 할인 EVENT</p>
+            <p class="e-date-txt">2024-12-20</p>
+          </div> 
+        </li>
+        <li><a href="#"><img src="img/겨울맞이이벤트배너.png" alt=""></a>
+          <div class="event-txt-box">
+            <p class="event-txt"><span>[이벤트]</span>
+              선착순 앱쿠폰 할인 EVENT</p>
+            <p class="e-date-txt">2023-12-28</p>
+          </div> 
+        </li>
+      </ul>
+
+
+      <div class="e-top-txt">
+        <p>전체 매장 및 각 매장에서 다양한 이벤트가 진행중 입니다.</p>
+      </div>
+
+      <div class="event-btn">
+        <p>이벤트 더보기</p>
+      </div>
+    </div>
+    <!-- <h3 class="con4-txt-2">-종료된 이벤트-</h3> -->
+    <!-- <div class="event event-1">
+      <p class="e-img1">
+        <a href="#"><img src="img/e-img1.png" alt=""></a>
+      </p>
+      <p class="e-txt etxt-1">
+      <a href="#"><p class="content">빙수 메뉴 출시 선착순 앱쿠폰 할인 이벤트</p></a>
+
+      <span class="e-date">2024-07-05 ~ 2024-08-03</span>
+      </p>
+    </div>
+    <div class="event event-2">
+      <p class="e-img1">
+        <a href="#"><img src="img/e-img2.png" alt=""></a>
+      </p>
+      <p class="e-txt etxt-1">
+      <a href="#"><p class="content">인스타그램 게시물 좋아요 이벤트</p></a>
+
+      <span class="e-date">2023-12-11 ~ 2023-12-24</span>
+      </p>
+    </div>
+    <div class="event event-3">
+      <p class="e-img1">
+        <a href="#"><img src="img/e-img3.png" alt=""></a>
+      </p>
+      <p class="e-txt etxt-1">
+      <a href="#"><p class="content">겨울 신메뉴 구매 인증 이벤트</p></a>
+
+      <span class="e-date">2023-11-30 ~ 2023-12-06</span>
+      </p>
+    </div>
+    <div class="event event-4">
+      <p class="e-img1">
+        <a href="#"><img src="img/e-img4.png" alt=""></a>
+      </p>
+      <p class="e-txt etxt-1">
+      <a href="#"><p class="content">인스타그램 게시물 공유 & 친구 태그 이벤트 </p></a>
+
+      <span class="e-date">2023-11-24 ~ 2023-11-30</span>
+      </p>
+    </div> -->
+
+
+  </div>
+
+
+  <div class="contents-5">
+    <div class="search-box">
+      <h3>DROPTOP STORE</h3>
+      <h5>주변의 드롭탑 매장을 찾아보세요!</h5>
+      <div class="search-form">
+        <div class="search-input-wrapper">
+          <input type="text" placeholder="매장 이름 또는 위치 검색" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="search-img"><img src="img/인테리어 드롭탑 배경 22.svg" alt=""></div>
+    </div>
+
+    
+      <div class="notice">
+        <h2 class="notice5">NOTICE <span class="more"><a href="#">more -></a></span></h2>
+        <div class="notice-item">
+          <span class="notice-content"><a href="#">[공지] 전국 휴게소 드롭탑 매장 안내</a></span>
+          <span class="notice-date">2023-09-20</span>
+        </div>
+        <!-- 추가 공지사항 항목을 여기에 추가할 수 있습니다. -->
+        <div class="notice-item">
+          <span class="notice-content"><a href="#">[공지] 드롭탑 앱 선불카드 전액 소진 안내</a></span>
+          <span class="notice-date">2023-08-17</span>
+        </div>
+        <div class="notice-item">
+          <span class="notice-content"><a href="#">[공지] [2021년 8월] 멤버십 변경 안내</a></span>
+          <span class="notice-date">2023-08-17</span>
+        </div>
+        <div class="notice-item">
+          <span class="notice-content"><a href="#">[공지] 모바일 교환권(기프티콘) 사용 불가 매장 안내(24.03 Ver.)</a></span>
+          <span class="notice-date">2022-06-22</span>
+        </div>
+      </div>
+   
+  </div>
+
+  <footer>
+    <div class="footer-1">
+      <img src="img/footer_awards_2020.jpg" alt="" class="f-logo-img">
+    </div>
+    <div class="footer-2">
+      <div class="footer-2-container">
+        <h1 class="logo">
+          <img src="img/renew_header_logo.png222.png" alt="">
+        </h1>
+
+        <div class="footer-txt">
+          <div class="footer-txt-top">
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">본/지사안내</a></li>
+              <li><a href="#">채용공고</a></li>
+              <li><a href="#">시공업체등록</a></li>
+              <li><a href="#">사이트맵</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-txt-center">
+            <a href="#">
+            <p>서울특별시 서초구 강남대로 601 (잠원동 21-2) 8층, (주)다도글로벌/드롭탑 | T.(02)541-7800
+              <br>사업자등록번호:211-88-47165 | 대표이사:신영욱 | 개인정보관리책임자:임동진 | <span>통신판매업번호:2019-서울서초-1518</span>
+              <br>마케팅.제휴 문의 top_mkt@dadoglobal.com
+            </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f-sns">
+          <ul>
+            <li><a href="#"><img src="img/f-sns1.png" alt=""></a></li>
+            <li><a href="#"><img src="img/f-sns-2.png" alt=""></a></li>
+            <li><a href="#"><img src="img/f-sns-3.png" alt=""></a></li>
+            <li><a href="#"><img src="img/f-sns-4.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  
+  </footer>
+
+  <div class="widget">
+    <ul>
+      <li><a href="#"><img src="img/고정1.png" alt=""></a></li>
+      <li><a href="#"><img src="img/고정2.png" alt=""></a></li>
+      <li><a href="#"><img src="img/고정3.png" alt=""></a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
